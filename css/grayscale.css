@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
@@ -224,16 +224,21 @@ a:focus {
 .content-section {
   padding-top: 10px;
 }
-.download-section {
+.accommodation-section {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/palmisano.jpg) no-repeat center center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/ctariver.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+.accommodation-section ul {
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
 }
 .map {
   width: 100%;
@@ -243,7 +248,7 @@ a:focus {
   .content-section {
     padding-top: 25px;
   }
-  .download-section {
+  .accommodation-section {
     padding: 100px 0;
   }
   .map {
